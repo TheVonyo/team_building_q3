@@ -15,6 +15,7 @@
     'depends': ['survey'],
 
     'data': [
-        'views/assets.xml'
+        'views/assets.xml',
+        'views/survey_templates_user_input_session.xml'
     ],
 }
