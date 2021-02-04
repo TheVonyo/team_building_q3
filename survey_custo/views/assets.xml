@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="survey_user_input_session_assets" inherit_id="survey.survey_user_input_session_assets" name="Survey User Input Session Assets">
+            <xpath expr="script[last()]" position="after">
+            <script src='https://meet.jit.si/external_api.js'></script>
+            <script type="text/javascript" src="/survey_custo/static/src/js/jitsi.js"/>
+            </xpath>
+        </template>
+    </data>
+</odoo>
