@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_frontend" priority="999" inherit_id="survey.survey_user_input_session_assets">
+        <xpath expr="script[last()]" position="after">
+            <script type="text/javascript" src="/survey_custo/static/src/js/survey_session_manage.js"></script>
+        </xpath>
+    </template>
+</odoo>

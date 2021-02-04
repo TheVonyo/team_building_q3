@@ -15,5 +15,6 @@
     'depends': ['survey'],
 
     'data': [
+        'views/assets.xml'
     ],
 }
