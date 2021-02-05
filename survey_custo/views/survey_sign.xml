@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="survey_fill_form_sign" inherit_id="survey.survey_fill_form_done">
+        <xpath expr="//div[hasclass('o_survey_result')]" position="after">
+            <div class="wrap">
+                <div class="o_survey_finished mt32 mb32">
+                    <h1>The last step to validate the survey is to sign with the button below</h1>
+                     <div class="o_portal_signature_form"
+                        t-att-data-call-url="'/sign/survey/%s' % answer.id"
+                        t-att-data-default-name="default_name"
+                        t-att-data-mode="mode"
+                        t-att-data-send-label="send_label"
+                        t-att-data-signature-ratio="signature_ratio"
+                        t-att-data-signature-type="signature_type"
+                        t-att-data-font-color="font_color"
+                        />
+                </div>
+            </div>
+        </xpath>
+    </template>
+</odoo>

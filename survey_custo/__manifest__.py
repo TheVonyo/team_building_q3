@@ -12,8 +12,9 @@
     'category': 'Uncategorized',
     'version': '0.1',
 
-    'depends': ['survey'],
+    'depends': ['base', 'survey', 'sign'],
 
     'data': [
+        'views/survey_sign.xml',
     ],
 }
